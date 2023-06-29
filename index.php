@@ -32,6 +32,8 @@
                     <!-- <input class="chat__input" placeholder="Escribe..." type="text" id="text"> -->
                     <button title="Stickers" class="chat__button chat__button--transparent" id="stickerButton"><i class="fa-solid fa-face-smile"></i></button>
                     <button title="Attachment" class="chat__button chat__button--transparent" id="imageButton"><i class="fa-solid fa-paperclip"></i></button>
+                    <button title="Voice Message" class="chat__button chat__button--transparent" id="microphoneButton"><i class="fa-solid fa-microphone"></i></button>
+                    <button title="Camera" class="chat__button chat__button--transparent" id="cameraButton"><i class="fa-solid fa-camera"></i></button>
                     <button title="Send Message" class="chat__button" id="sendButton"><i class="fa-solid fa-paper-plane-top"></i></button>
 
                     <!-- <button class="chat__button">IMG</button> -->

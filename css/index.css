@@ -93,10 +93,11 @@ border-radius: 10px;
 
 .chat__button{
     width: max-content;
-    background-color: var(--blue-custom);
+    background-color: transparent;
+   
     outline: none;
     border: none;
-    color: var(--white-custom);
+    color: var(--blue-custom-hover);
     padding: 0.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -104,7 +105,8 @@ border-radius: 10px;
 }
 
 .chat__button:hover{
-    background-color: var(--blue-custom-hover);
+    background-color: var(--blue-custom);
+    color: var(--white-custom);
 }
 
 .chat__button--transparent{
@@ -114,6 +116,8 @@ border-radius: 10px;
 
 .chat__button--transparent:hover{
     background-color: var(--gray-custom);
+    color: var(--gray-custom-text);
+
 }
 
 .chat__bubble{
