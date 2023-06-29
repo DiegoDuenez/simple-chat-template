@@ -1,0 +1,119 @@
+/*
+|   
+|   ---------------------------------------------------------------------------------
+|   @Root
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+:root{
+
+    --blue-custom: #0a68d3;
+    --blue-custom-hover: #0c5db9;
+    --gray-custom:#e4e4e4;
+    --gray-custom-hover:#cecece;
+    --gray-custom-text: #464646;
+    --white-custom: #ffff;
+
+}
+
+/*
+|   ---------------------------------------------------------------------------------
+|   All
+|   ---------------------------------------------------------------------------------
+|   
+|   Add margin, padding in 0 with box-sizing in border-box.
+|
+*/
+* {
+    margin: 0;
+    padding: 0;
+        -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+        -webkit-padding-start: 0px;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Html & body
+|   ---------------------------------------------------------------------------------
+|   
+|   Add margin, padding in 0 with width and height in 100%, with this you can use height of 100% in your containers.
+|
+*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 16px;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Html (Not obligatory)
+|   ---------------------------------------------------------------------------------
+|   
+|   Scroll smooth & friendly :)
+|
+*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body
+|   ---------------------------------------------------------------------------------
+|   
+|   Body with position relative and overflow-x hidden for responsive mode and does not allow horizontal side scrolling.
+|
+*/
+body{
+    position: relative;
+    overflow-x: hidden !important;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body > div
+|   ---------------------------------------------------------------------------------
+|   
+|   All div tags inside the body do not allow horizontal side scrolling.
+|
+*/
+body>div {
+    overflow: hidden !important;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body > section
+|   ---------------------------------------------------------------------------------
+|   
+|   All section tags inside the body do not allow horizontal side scrolling.
+|
+*/
+body>section {
+    overflow: hidden !important;
+}
+
+

@@ -1,0 +1,133 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.chat{
+
+    display: flex;
+    /*width: 30rem;
+    height: 30rem;*/
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color: red;
+
+}
+
+.chat__header{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: var(--blue-custom);
+    justify-content: center;
+    align-items: center;
+    color: var(--white-custom);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.chat__messages{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 70%;
+    padding: 1rem;
+    gap: 1rem;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+/* width */
+.chat__messages::-webkit-scrollbar {
+    width: 0.5rem;
+}
+  
+/* Track */
+.chat__messages::-webkit-scrollbar-track {
+border-radius: 10px;
+}
+
+/* Handle */
+.chat__messages::-webkit-scrollbar-thumb {
+background: var(--blue-custom); 
+border-radius: 10px;
+}
+  
+
+.chat__form{
+    display: flex;
+    width: 100%;
+    background-color: #d3d3d3;
+    align-items: center;
+    height: 15%;
+    padding: 0 0.5rem;
+}
+
+.chat__form-bg{
+    display: flex;
+    background-color: var(--white-custom);
+    padding: 0.5rem 1rem;
+    width: 100%;
+    height: max-content;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.chat__input{
+    outline: none;
+    border: none;
+    width: 80%;
+    padding-top: 0.5rem;
+    resize: none;
+}
+
+.chat__button{
+    width: max-content;
+    background-color: var(--blue-custom);
+    outline: none;
+    border: none;
+    color: var(--white-custom);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.chat__bubble{
+    width: max-content;
+    max-width: 70%;
+    min-width: 2rem;
+    background-color: var(--blue-custom);
+    border-radius: 0.5rem;
+    color: var(--white-custom);
+    padding: 0.5rem;
+    align-self: flex-end;
+    transition: 0.4s;
+}
+
+.chat__bubble:hover{
+    background-color: var(--blue-custom-hover);
+}
+
+.chat__bubble--gray{
+    background-color: var(--gray-custom);
+    color: var(--gray-custom-text);
+    align-self: flex-start;
+}
+
+.chat__bubble--gray:hover{
+    background-color: var(--gray-custom-hover);
+
+}
