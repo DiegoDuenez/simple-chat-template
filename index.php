@@ -28,6 +28,7 @@
             </div>
             <div class="chat__form">
                 <div class="chat__form-bg">
+
                     <textarea class="chat__input" placeholder="Message..." id="text"></textarea>
                     <button title="Stickers" class="chat__button chat__button--transparent" id="stickerButton"><i class="fa-solid fa-face-smile"></i></button>
                     <button title="Attachment" class="chat__button chat__button--transparent" id="imageButton"><i class="fa-solid fa-paperclip"></i></button>
