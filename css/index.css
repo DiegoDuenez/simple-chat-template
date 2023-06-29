@@ -101,9 +101,22 @@ border-radius: 10px;
     padding: 0.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    font-weight: bold;
+    font-size: 2rem;
+    transition: 0.4s ;
 }
 
+.chat__button:hover{
+    background-color: var(--blue-custom-hover);
+}
+
+.chat__button--transparent{
+    background-color: transparent;
+    color: var(--gray-custom-text);
+}
+
+.chat__button--transparent:hover{
+    background-color: var(--gray-custom);
+}
 
 .chat__bubble{
     width: max-content;
