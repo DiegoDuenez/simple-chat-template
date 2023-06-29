@@ -28,11 +28,11 @@
             </div>
             <div class="chat__form">
                 <div class="chat__form-bg">
-                    <textarea class="chat__input" placeholder="Escribe..." id="text"></textarea>
+                    <textarea class="chat__input" placeholder="Message..." id="text"></textarea>
                     <!-- <input class="chat__input" placeholder="Escribe..." type="text" id="text"> -->
-                    <button class="chat__button chat__button--transparent" id="stickerButton"><i class="fa-solid fa-face-smile"></i></button>
-                    <button class="chat__button chat__button--transparent" id="imageButton"><i class="fa-solid fa-image"></i></button>
-                    <button class="chat__button" id="sendButton"><i class="fa-solid fa-paper-plane-top"></i></button>
+                    <button title="Stickers" class="chat__button chat__button--transparent" id="stickerButton"><i class="fa-solid fa-face-smile"></i></button>
+                    <button title="Attachment" class="chat__button chat__button--transparent" id="imageButton"><i class="fa-solid fa-paperclip"></i></button>
+                    <button title="Send Message" class="chat__button" id="sendButton"><i class="fa-solid fa-paper-plane-top"></i></button>
 
                     <!-- <button class="chat__button">IMG</button> -->
                 </div>
